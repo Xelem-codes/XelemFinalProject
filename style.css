@@ -1,0 +1,188 @@
+/* Reset default margin and padding */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Changed background color */
+    color: white; /* Changed default text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #0066cc; /* Changed header background color */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0; /* Increased padding for more impact */
+}
+
+header h1 {
+    font-size: 3em; /* Enlarged header text */
+    margin: 10px 0;
+}
+
+/* Header Tagline */
+header p {
+    font-size: 1.4em; /* Increased tagline size */
+    margin: 10px 0 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: floralwhite;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; /* Increased padding for the nav bar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; /* Increased margin for better spacing */
+}
+
+nav a {
+    text-decoration: green;
+    padding: 8px 15px; /* Adjusted padding for nav links */
+    border: 1px solid #fff;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s; /* Added transition effect */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Section Styles */
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px; /* Increased padding for content */
+}
+
+/* Introduction Section Styles */
+#introduction {
+    text-align: center;
+    margin-top: 30px; /* Increased top margin */
+}
+
+#introduction h2 {
+    font-size: 2.5em; /* Enlarged introduction heading */
+    margin-bottom: 20px; /* Increased bottom margin */
+}
+
+#introduction p {
+    font-size: 1.3em; /* Adjusted introduction paragraph size */
+    color: #555; /* Adjusted text color for better contrast */
+}
+
+#introduction img {
+    max-width: 70%; /* Adjusted image width */
+    height: auto;
+    display: block;
+    margin: 30px auto; /* Increased margin around the image */
+    border: 3px solid #0066cc; /* Changed image border color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0066cc; /* Changed footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em; /* Adjusted font size */
+    margin: 10px 0; /* Increased margins for footer text */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* CSS Styles */
+.progress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Contact Form Section Styles */
+#contact-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#contact-form input[type="submit"] {
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #004080;
+}
+
+/* Contact Information Section Styles */
+#contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact-info p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+

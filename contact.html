@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="final.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact-form">
+            <h2>Reach out </h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="1" required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: anselemjonathan4@gmail.com</p>
+            <p>Phone: 513-331-1251</p>
+            <p></p>
+
+             <div id="socials" style="margin-top: 5%;">
+                <a href="https://www.instagram.com/Iam_Xelem/"    id="instagram"  target="_blank"> <img src="IMG_0233.jpeg" alt="Instagram Logo"  width="100" height="100"> </a>
+                <a href="https://www.linkedin.com/in/joshua-ugborugbo-7941452a0//"  id="linkedin"   target="_blank"> <img src="IMG_0234.jpeg"  alt="LinkedIn Logo" width="100" height="100"> </a>
+            
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+         Copyright &copy; 2023 University of Cincinnati, IT2040 <br>
+        <a href="mailto:ugborubo@mail.uc.edu">JoshuaUgborugbo@mail.com</a>
+    </footer>
+
+</body>
+
+</html>
